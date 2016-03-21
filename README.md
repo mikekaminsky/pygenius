@@ -15,11 +15,16 @@ OR
 
 If you download the source from here, please make sure you have BeautifulSoup installed (`pip install beautifulsoup4`).
 
+Or, to install from source:
+`$ cd src`
+`$ python setup.py install`
+
 ###To import the library
 
 At the top of your script, include the following:
 
 `from pygenius import artists, songs, wordsearch`
+
 
 
 ###Functions currently available

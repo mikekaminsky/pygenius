@@ -4,13 +4,15 @@ pageopen.pyc
 songs.pyc
 wordsearch.pyc
 pagination.pyc
+pygenius.egg-info/
 __init__.pyc
-setup.py
 src/README
 src/MANIFEST.in
 src/pygenius.egg-info
 src/build
 src/dist
+
 .DS_Store
 *.swp
+*.swo
 *~
