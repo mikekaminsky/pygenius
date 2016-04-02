@@ -16,8 +16,9 @@ OR
 If you download the source from here, please make sure you have BeautifulSoup installed (`pip install beautifulsoup4`).
 
 Or, to install from source:
-`$ cd src`
-`$ python setup.py install`
+
+    $ cd src
+    $ python setup.py install
 
 ###To import the library
 
