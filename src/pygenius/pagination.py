@@ -14,7 +14,7 @@ def openPage(artist):
 	pages = pages.split('</a>')
 
 	pageLink = pages[len(pages) - 3]
-	pageLink = pageLink.replace('<a href="', 'http://rapgenius.com')
+	pageLink = pageLink.replace('<a href="', 'http://genius.com')
 	pageLink = pageLink.split('"')[0]
 	pageLink = pageLink.strip()
 

@@ -37,7 +37,7 @@ def searchURL(url, arg='data'):
 			#lyric = ' '.join(lyric.split())
 			annotation = a.group(0)
 			#print lyric
-			
+
 			lyrics.append(lyric)
 
 			search1 = annotation.find('"no_annotation"')
@@ -48,7 +48,7 @@ def searchURL(url, arg='data'):
 			elif search2 != -1:
 				annotation = re.sub(r'\<.*?\/', '', annotation)
 				annotation = annotation.replace('">', '')
-				annotations.append('http://rapgenius.com/' + annotation)
+				annotations.append('http://' + annotation)
 			else:
 				annotations.append("Not annotated")
 
@@ -100,7 +100,7 @@ def findAllSongs(artist, arg='songs'):
 	newUrl = pagination.openPage(artist)
 	songs = pagination.getSongs(newUrl)
 
-	
+
 	for song in songs:
 		link = song[0]
 		track = song[1]
@@ -115,4 +115,4 @@ def findAllSongs(artist, arg='songs'):
 		return tracks
 	else:
 		return songs
-	
+
